@@ -8,3 +8,4 @@ export const store = configureStore({
     },
     middleware: [logger]
 })
+//this line of code is importing the configureStore function from the @redux/toolkit package

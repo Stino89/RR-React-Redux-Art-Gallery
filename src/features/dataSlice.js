@@ -1,10 +1,13 @@
+//this line of code is importing a function named createSlice from the Redux toolkit library.
 import { createSlice } from '@reduxjs/toolkit'
 
+//this line of code is creating an object named initialState that contains the objectId and apiData properties. 
 const initialState = {
     objectId: 10245,
     apiData: {}
 }
-
+//this line of code is the beginning of a declaration for a constant variable name dataSlice.
+//dataslice,which is the being exported for use in other parts of your application.
 export const dataSlice = createSlice({
     name: 'data',
     initialState,

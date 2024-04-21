@@ -18,7 +18,7 @@ function App(props) {
   useEffect(() => {
     dispatch(fetchData())
   }, [props.objectId, dispatch])
-
+//in this cae, its bringing in a Css file.This is a feature specific to webpack, a popular module bundler used in many React applications. 
 
   return (
     <div className="App">

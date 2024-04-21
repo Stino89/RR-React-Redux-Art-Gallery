@@ -37,8 +37,8 @@ function App(props) {
       </div>
     </div>
   );
-}
-
+  }
+//this line of code is the start of a return statement in a javascript function named App.
 
 const mapStateToProps = (state, ownProps) => ({ objectId: state.data.objectId })
 

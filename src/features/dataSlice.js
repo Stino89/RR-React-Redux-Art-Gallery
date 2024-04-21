@@ -30,8 +30,11 @@ export const dataSlice = createSlice({
     }
 })
 
+//this line of code is using javascript object destructuring syntax to extract multiple properties from the actions property of dataSlice.
 export const { setData, clearData, incrementId, decrementId, inputId } = dataSlice.actions
 
+//this line of code is defining and exporting a functon named fetchData.
+//fetchData is a thunk that uses the fetch API to make a request to the Met Museum API.
 export const fetchData = () => {
     const fetchDataThunk = async (dispatch, getState) => {
         let state = getState()
